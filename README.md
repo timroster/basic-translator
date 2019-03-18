@@ -6,10 +6,9 @@ The system is designed to work on a sentence-by-sentence basis. In order to do t
 
 A more sophisticated orchestration system would extend this approach by processing the metadata output from Text to Speech to ensure that later translated sentences were queued by the appropriate time needed to playback the current sentence. Generally though, the pauses between spoken sentences are sufficient to prevent overlap or interruptions.
 
+## Setup
 
-## Setup 
-
-1. On IBM Cloud, deploy Node-RED starter, bind instances of Language Translator and Speech To Text (preferrably standard as Lite only supports 10k chars. Restage after binding.
+1. On IBM Cloud, deploy Node-RED starter, bind instances of Language Translator and Speech To Text (preferrably standard) as Lite only supports 10k chars. Restage after binding.
 
 1. Create instance of Text to Speech and make note of the api key
 
